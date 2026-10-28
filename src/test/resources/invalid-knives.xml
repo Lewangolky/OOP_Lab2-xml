@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Breaks three rules of knives.xsd: duplicate ID, blade too short, wooden handle without wood -->
+<knives>
+    <knife id="k1" type="dagger">
+        <handy>one-handed</handy>
+        <origin>Ukraine</origin>
+        <visual>
+            <blade>
+                <length>5</length>
+                <width>35</width>
+            </blade>
+            <blade-material>steel</blade-material>
+            <handle>
+                <wooden/>
+            </handle>
+            <fuller>true</fuller>
+        </visual>
+        <collectible>true</collectible>
+    </knife>
+    <knife id="k1" type="knife">
+        <handy>one-handed</handy>
+        <origin>Germany</origin>
+        <visual>
+            <blade>
+                <length>12</length>
+                <width>20</width>
+            </blade>
+            <blade-material>steel</blade-material>
+            <handle>
+                <plastic/>
+            </handle>
+            <fuller>false</fuller>
+        </visual>
+        <collectible>false</collectible>
+    </knife>
+</knives>
