@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knives xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="knives.xsd">
+    <knife id="k1" type="dagger">
+        <handy>one-handed</handy>
+        <origin>Ukraine</origin>
+        <visual>
+            <blade>
+                <length>25</length>
+                <width>35</width>
+            </blade>
+            <blade-material>steel</blade-material>
+            <handle>
+                <wooden wood="oak"/>
+            </handle>
+            <fuller>true</fuller>
+        </visual>
+        <collectible>true</collectible>
+    </knife>
+    <knife id="k2" type="saber">
+        <handy>one-handed</handy>
+        <origin>Poland</origin>
+        <visual>
+            <blade>
+                <length>85</length>
+                <width>30</width>
+            </blade>
+            <blade-material>damascus-steel</blade-material>
+            <handle>
+                <metal/>
+            </handle>
+            <fuller>true</fuller>
+        </visual>
+        <collectible>true</collectible>
+    </knife>
+    <knife id="k3" type="knife">
+        <handy>one-handed</handy>
+        <origin>Germany</origin>
+        <visual>
+            <blade>
+                <length>12</length>
+                <width>20</width>
+            </blade>
+            <blade-material>steel</blade-material>
+            <handle>
+                <plastic/>
+            </handle>
+            <fuller>false</fuller>
+        </visual>
+        <collectible>false</collectible>
+    </knife>
+    <knife id="k4" type="sword">
+        <handy>two-handed</handy>
+        <origin>Japan</origin>
+        <visual>
+            <blade>
+                <length>70</length>
+                <width>32</width>
+            </blade>
+            <blade-material>steel</blade-material>
+            <handle>
+                <wooden wood="ash"/>
+            </handle>
+            <fuller>false</fuller>
+        </visual>
+        <collectible>true</collectible>
+    </knife>
+    <knife id="k5" type="dagger">
+        <handy>one-handed</handy>
+        <origin>Turkey</origin>
+        <visual>
+            <blade>
+                <length>30</length>
+                <width>40</width>
+            </blade>
+            <blade-material>copper</blade-material>
+            <handle>
+                <metal/>
+            </handle>
+            <fuller>false</fuller>
+        </visual>
+        <collectible>true</collectible>
+    </knife>
+    <knife id="k6" type="machete">
+        <handy>one-handed</handy>
+        <origin>Brazil</origin>
+        <visual>
+            <blade>
+                <length>45</length>
+                <width>50</width>
+            </blade>
+            <blade-material>cast-iron</blade-material>
+            <handle>
+                <plastic/>
+            </handle>
+            <fuller>false</fuller>
+        </visual>
+        <collectible>false</collectible>
+    </knife>
+    <knife id="k7" type="knife">
+        <handy>one-handed</handy>
+        <origin>Finland</origin>
+        <visual>
+            <blade>
+                <length>10</length>
+                <width>15</width>
+            </blade>
+            <blade-material>steel</blade-material>
+            <handle>
+                <wooden wood="birch"/>
+            </handle>
+            <fuller>false</fuller>
+        </visual>
+        <collectible>false</collectible>
+    </knife>
+    <knife id="k8" type="sword">
+        <handy>two-handed</handy>
+        <origin>Scotland</origin>
+        <visual>
+            <blade>
+                <length>110</length>
+                <width>55</width>
+            </blade>
+            <blade-material>steel</blade-material>
+            <handle>
+                <wooden wood="walnut"/>
+            </handle>
+            <fuller>true</fuller>
+        </visual>
+        <collectible>true</collectible>
+    </knife>
+</knives>
